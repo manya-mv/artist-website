@@ -72,23 +72,70 @@ hr{
     margin-top: 60px;
     margin-left: 60px;
 }
-.tracklist
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .alcov{
     width: 316px;
     height: 316px;
+    margin-left: 300px;
+    margin-bottom: 40px;
 }
 .desc{
     align-content: center;
-    margin: 120px 120px 120px 120px ;
-    margin-top: 0px;
+    margin-right: 300px ;
+    margin-left: 50px;
+    margin-top: -40px;
     font-family: "Comic Relief", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+.tracklist{
+    width: 700px;
+    margin: 80px auto;
+    color: white;
+    margin-top: 0px;
+    font-size: smaller;
+    margin-bottom: 0px;
+}
+
+.tracklist h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tracks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+}
+.tracks ul{
+    text-align: left;
+    list-style: none;
+}
+
+.tracklist li{
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3); 
+}
+.tracklist li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.listennow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    text-decoration: underline;
+}
+.musiclink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
 }

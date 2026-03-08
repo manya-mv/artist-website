@@ -4,6 +4,7 @@ body{
     color: white;
     z-index: 1;
     background-color: black;
+     
     
 }
 *{
@@ -62,9 +63,90 @@ hr{
     font-family: "Alumni Sans Pinstripe", sans-serif;
 }
 
-.form1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: lightgray;
+.form-container{
+    width:900px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: 400px;
+
+}
+
+.section-title{
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.name-row{
+    display:flex;
+    gap:20px;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-bottom:25px;
+}
+
+label{
+    margin-bottom:8px;
+    font-size:14px;
+    color:#aaa;
+}
+
+input[type="text"],
+input[type="email"]{
+    padding:12px;
+    border:1px solid #aaa;
+    background:#777;
+    color:white;
+}
+
+.email{
+    width:100%;
+}
+
+.checkbox-group{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:40px;
+}
+
+.submit-btn{
+    background:#ccc;
+    border:none;
+    padding:14px 40px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.submit-btn:hover{
+    background:white;
+}
+
+.privacy{
+    display:block;
+    margin-top:80px;
+    color:white;
+}
+.thank-you{
+    display:none;
+    opacity:0;
+    text-align:center;
+    font-size:32px;
+    transition: opacity 0.5s ease;
+    margin-top:50px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+
+.fade-out{
+    opacity:0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-in{
+    opacity:1;
 }
